@@ -1,0 +1,11 @@
+/* All styles goes here */
+.collapse{
+    overflow: hidden;
+    background: #a00;
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform 0.3s ease-in-out;
+}
+.collapsed{
+   transform: scaleY(1);
+}
